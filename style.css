@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap');
 html,body,*
 {
     font-size: 16px;
@@ -11,8 +12,8 @@ html,body,*
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ffffff;
-    font-size: 200px;
+    background-color: white;
+    padding-bottom: 10px;
 }
 .block
 {
@@ -20,10 +21,9 @@ html,body,*
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(255, 255, 255);
-    font-size: 200px;
+    background-color: white;
+    padding-bottom: 10px;
 }
-
 #Title
 {
     text-align: center;
@@ -33,9 +33,12 @@ html,body,*
 body
 {
     background-color: gray;
-    
 }
 h2
 {
     font-size: 100px;
+}
+img
+{
+    width:50%;
 }
